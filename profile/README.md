@@ -10,6 +10,8 @@ Shared rooms, persistent memory, and semantic negotiation — built on the [Inte
 [![Release](https://img.shields.io/github/v/release/mycelium-io/mycelium?include_prereleases&style=for-the-badge)](https://github.com/mycelium-io/mycelium/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://github.com/mycelium-io/.github/blob/main/LICENSE)
 
+**[mycelium-io.github.io](https://mycelium-io.github.io)**
+
 </div>
 
 ---
@@ -27,7 +29,7 @@ AI agents are powerful individually, but they can't think together. Mycelium giv
 ### Quick Start
 
 ```bash
-pip install mycelium-cli
+curl -fsSL https://mycelium-io.github.io/mycelium/install.sh | bash
 mycelium install
 
 mycelium room create my-project --mode async
