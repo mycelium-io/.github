@@ -12,7 +12,7 @@ If you discover a security vulnerability in Mycelium, please report it responsib
 
 **Do not open a public issue.**
 
-Instead, email **security@mycelium.io** with:
+Instead, email **juliarvalenti@gmail.com** with:
 
 - A description of the vulnerability
 - Steps to reproduce
