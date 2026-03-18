@@ -1,6 +1,6 @@
 <div align="center">
 
-# Mycelium
+# mycelium
 
 **A coordination layer for multi-agent systems**
 
