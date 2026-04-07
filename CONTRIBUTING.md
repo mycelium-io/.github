@@ -56,4 +56,4 @@ For significant changes to architecture or new features, open an issue for discu
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the MIT License.
+By contributing, you agree that your contributions will be licensed under the Apache License 2.0.
