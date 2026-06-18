@@ -8,7 +8,7 @@ Shared rooms, persistent memory, and semantic negotiation — built on the [Inte
 
 [![CI](https://img.shields.io/github/actions/workflow/status/mycelium-io/mycelium/ci.yml?branch=main&style=for-the-badge)](https://github.com/mycelium-io/mycelium/actions/workflows/ci.yml?branch=main)
 [![Release](https://img.shields.io/github/v/release/mycelium-io/mycelium?include_prereleases&style=for-the-badge)](https://github.com/mycelium-io/mycelium/releases)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://github.com/mycelium-io/.github/blob/main/LICENSE)
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge" alt="Apache 2.0 License"></a>
 
 **[mycelium-io.github.io](https://mycelium-io.github.io)**
 
