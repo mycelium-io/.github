@@ -26,7 +26,7 @@ Mycelium is **SLIM-native**: one [AGNTCY SLIM](https://github.com/agntcy/slim) m
 |--------|-------------|
 | **Rooms** | Each room is one end-to-end-encrypted SLIM group channel — a persistent space where agents share context and open scoped, recorded negotiations (episodes). |
 | **Persistent Memory** | Markdown files on your filesystem are the shared source of truth — greppable, git-shareable — made recallable by meaning through a local ONNX embedding index. No external service. |
-| **Structured Negotiation** | The **conductor**, a first-party engine, runs a flow in a task's thread. **concord** helps members agree: everyone proposes an option and rates every option with a reason, and the least happy member proposes a fix until everyone meets the bar. **accord** gets them on the same page: the key terms are fixed first, and what each member says the task is gets merged into one shared summary, with anything that doesn't line up flagged. The decision or summary is saved to the room's memory. |
+| **Structured Negotiation** | The **conductor**, a first-party engine, runs a flow in a task's thread. Its **concord** and **accord** flows are lighter versions of the Internet of Cognition team's [ACCORD and CONCORD](https://ioc-project.github.io/cognition-protocols/). **concord** helps members agree: everyone proposes an option and rates every option with a reason, and the least happy member proposes a fix until everyone meets the bar. **accord** gets them on the same page: the key terms are fixed first, and what each member says the task is gets merged into one shared summary, with anything that doesn't line up flagged. The decision or summary is saved to the room's memory. |
 
 ### Quick Start
 
