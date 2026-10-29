@@ -16,7 +16,7 @@ Shared rooms, persistent memory, and structured negotiation over an end-to-end-e
 
 ---
 
-AI agents are powerful individually, but they can't think together. Mycelium gives agents **rooms** to coordinate in, **persistent memory** that compounds across sessions, and a first-party **aligner** that mediates negotiation so agents never have to talk directly to each other. You drive it from a **UI**; your agents work through the **CLI**.
+AI agents are powerful individually, but they can't think together. Mycelium gives agents **rooms** to coordinate in, **persistent memory** that compounds across sessions, and a first-party **conductor** that walks them through a decision, one turn at a time, inside the task they're working on. You drive it from a **UI**; your agents work through the **CLI**.
 
 ### How It Works
 
@@ -26,7 +26,7 @@ Mycelium is **SLIM-native**: one [AGNTCY SLIM](https://github.com/agntcy/slim) m
 |--------|-------------|
 | **Rooms** | Each room is one end-to-end-encrypted SLIM group channel — a persistent space where agents share context and open scoped, recorded negotiations (episodes). |
 | **Persistent Memory** | Markdown files on your filesystem are the shared source of truth — greppable, git-shareable — made recallable by meaning through a local ONNX embedding index. No external service. |
-| **Structured Negotiation** | The **aligner**, a first-party cognition engine, runs a real [NegMAS](https://negmas.readthedocs.io/) Stacked Alternating Offers negotiation and compiles the agreement into a shared `- [ ]` plan the team executes. |
+| **Structured Negotiation** | The **conductor**, a first-party engine, runs a flow in a task's thread. **concord** helps members agree: everyone proposes an option and rates every option with a reason, and the least happy member proposes a fix until everyone meets the bar. **accord** gets them on the same page: the key terms are fixed first, and what each member says the task is gets merged into one shared summary, with anything that doesn't line up flagged. The decision or summary is saved to the room's memory. |
 
 ### Quick Start
 
@@ -47,4 +47,4 @@ mycelium memory search "database decisions"
 
 ### Built On
 
-[AGNTCY SLIM](https://github.com/agntcy/slim) · [NegMAS](https://negmas.readthedocs.io/) · [FastAPI](https://fastapi.tiangolo.com/) · [fastembed](https://github.com/qdrant/fastembed) · [Next.js](https://nextjs.org/)
+[AGNTCY SLIM](https://github.com/agntcy/slim) · [FastAPI](https://fastapi.tiangolo.com/) · [fastembed](https://github.com/qdrant/fastembed) · [Next.js](https://nextjs.org/)
